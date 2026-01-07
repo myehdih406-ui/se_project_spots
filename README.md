@@ -37,6 +37,8 @@ CSS3 / SCSS – Responsive layouts & animations
 
 
 
+## priject deployed in github
+ https://myehdih406-ui.github.io/se_project_spots/
 
-
-
+## project video
+https://www.loom.com/share/1ab96fbb6313489bab11961d5636c5de
