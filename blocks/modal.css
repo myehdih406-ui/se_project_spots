@@ -100,7 +100,7 @@ align-self: flex-start;
 
 }
 
-.form__label{
+.modal__label{
 font-family: "Poppins", Arial, Helvetica, sans-serif;
 font-weight: 500;
 font-style: Medium;
@@ -113,7 +113,7 @@ color: #212121B2;
 
 }
 
-.form__input{
+.modal__input{
     margin: 0 10px 32px ;
     width:100%;
     padding:16px 0;
@@ -123,7 +123,7 @@ color: #212121B2;
 
 
 
-.form__input::placeholder{
+.modal__input::placeholder{
     font-family: "Poppins",Arial, Helvetica, sans-serif;
 font-weight: 500;
 font-style: Medium;
