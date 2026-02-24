@@ -72,6 +72,18 @@ top:32px;
 right:50px;
 
 }
+
+.modal__close{
+width: 40px;
+height: 40px;
+opacity: 0.4;
+background-color: white;
+border:none;
+position:absolute;
+top:32px;
+right:50px;
+
+}
 .modal__form{
      width: 630px;
 height: 78px;
@@ -152,13 +164,13 @@ padding-left:12px;
         font-size:20px;
 
     }
-    .modal__close-button{
-        right:16px;
-        top:16px;
+    
 
-    }
+    
     .modal__save-button{
         width:100%;
         max-width:none;
     }
+     
+
 }
