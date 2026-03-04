@@ -32,10 +32,8 @@ justify-content:space-between;
 .cards__list-text{
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 font-weight: 500;
-font-style: Medium;
 font-size: 20px;
 line-height: 120%;
-letter-spacing: 0%;
 
     text-overflow: ellipsis;
   white-space: nowrap;
@@ -43,11 +41,13 @@ letter-spacing: 0%;
 }
 
 .cards__list-button{
-    background-color:#FCF5E5;
+    background : transparent;
     border:none;
+    cursor: pointer;
+    padding:0;
 }
 .cards__list-button:hover{
-  background-color: aliceblue;
+  opacity: 0.6;
 }
 @media screen and (max-width:627px){
     .cards__list{
