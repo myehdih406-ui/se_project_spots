@@ -2,8 +2,8 @@
  const profileEditModal = document.querySelector("#edit__modal");
  const modalCloseBtn = profileEditModal.querySelector(".modal__close-button");
 const newPostModal = document.querySelector("#upload__modal");
+const newPostModalCloseBtn = newPostModal.querySelector(".modal__close-button");
 const newPostButton = document.querySelector(".profile__button");
-const newPostClose = document.querySelector(".modal__close");
 const editProfileForm = profileEditModal.querySelector(".modal__form");
 const editProfileNameInput = profileEditModal.querySelector("#proifle_name-input");
 const editProfileDescriptionInput = profileEditModal.querySelector("#profile_description-input");
@@ -40,13 +40,14 @@ newPostButton.addEventListener("click", function(evt){
 modalCloseBtn.addEventListener("click", function(evt){
     evt.preventDefault();
     closeModal(profileEditModal);
+    
 })
- newPostClose.addEventListener("click", function(evt){
+
+newPostModalCloseBtn.addEventListener("click", function(evt){
     evt.preventDefault();
     closeModal(newPostModal);
-
+    
 })
-
 function handleEditProfileSubmit(evt){
     evt.preventDefault();
       profileTitleEl.textContent = editProfileNameInput.value; 
