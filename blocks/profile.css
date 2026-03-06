@@ -27,7 +27,7 @@ font-weight: 500;
 font-size: 32px;
 line-height: 100%;
 color: #212121;
-margin:0 0 12px;
+margin:0 ;
 text-overflow: ellipsis;
   overflow: hidden;
   display:-webkit-box;
@@ -67,15 +67,19 @@ opacity: 1;
 }
 
 .profile__edit{
-display:flex;
-max-width: 107px;
-height: 16px;
-gap: 8px;
-opacity: 0.7;
-margin-top:auto;
-border:none;
-cursor:pointer;
-background-color:transparent;
+      font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 500;
+    color: #212121;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    margin-top: auto;
+    display: flex;
+    gap: 8px;
+    opacity: 0.7;
+    cursor: pointer;
 }  
 
 .profile__edit:hover{
